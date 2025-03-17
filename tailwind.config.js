@@ -8,13 +8,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-green': '#67952c',
+        'primary-green': '#16a249',
+        'muted' : '#f1f5f9',
+
+      },
+      textColor: {
+        'hover' : '#09090b',
+        'primary': '#16a249',
+        'muted' : '#71717a' ,
+        'foreground' : '#09090b',
       },
       fontFamily: {
         sans: ["Onest", "sans-serif"]
       },
       container: {
-        center: true, 
+        center: true,
         padding: '',
         screens: {
           sm: '600px',

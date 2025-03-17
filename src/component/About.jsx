@@ -2,8 +2,13 @@ import { TitleSection } from "./TitleSection"
 
 export const About = () => {
   return (
-    <section className="container text-zinc-800 mt-20  h-[50rem] pl-14 items-center">
-        <TitleSection text={"sobre nosotros"}/>
+    <section className="py-20 md:py-32 bg-muted/80">
+      <div className="container ">
+        <div className=" flex justify-center w-[100%] text-center items-center mb-16">
+
+          <TitleSection text={"sobre nosotros"} />
+        </div>
+      </div>
     </section>
   )
 }

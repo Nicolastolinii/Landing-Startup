@@ -4,7 +4,8 @@ import { Navbar } from "../component/Navbar"
 
 export const Home = () => {
     return (
-        <div className="bg-gradient-to-bl from-[#e8f9e3]  to-transparent">
+        // <div className="bg-gradient-to-bl from-[#e8f9e3]  to-transparent">
+        <div>
             <Navbar />
             <main>
                 <Hero />
