@@ -1,9 +1,10 @@
 
 import { About } from "./component/About"
+import { Contact } from "./component/Contact"
 import { Hero } from "./component/Hero"
 import { Navbar } from "./component/Navbar"
 import { Services } from "./component/Services"
-import { Home } from "./pages/Home"
+
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Hero/>
     <About/>
     <Services/>
+    <Contact/>
     </>
   )
 }

@@ -5,11 +5,11 @@ export const Navbar = () => {
         <header className='  transition-all sticky top-0 z-40 w-full border-b  backdrop-blur '>
             <div className="container flex h-16 items-center justify-between ">
                 <div className='  flex items-center gap-2'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf h-5 w-5 text-primary"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-leaf h-5 w-5 text-primary"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
                     <span className="text-lg font-medium tracking-tight">NaturaConsult</span>
                 </div>
                 <nav role="navigation" className='   font-medium'>
-                    <ul className="flex gap-5 cursor-pointer transition-colors  text-sm text-muted  ">
+                    <ul className="flex gap-6 cursor-pointer transition-colors  text-sm text-muted  ">
                         <li className="hover:translate-y-[-1px] scale-100 hover:scale-105 duration-200 hover:text-hover">
                             <a href="#">Inicio</a>
                         </li>
