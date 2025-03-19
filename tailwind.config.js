@@ -19,11 +19,12 @@ export default {
         'foreground' : '#09090b',
       },
       fontFamily: {
-        sans: ["Onest", "sans-serif"]
+        // sans: ["Onest", "sans-serif"]
+        serif: ["Playfair Display", "serif"],
       },
       container: {
         center: true,
-        padding: '',
+        padding: '2rem',
         screens: {
           sm: '600px',
           md: '720px',
