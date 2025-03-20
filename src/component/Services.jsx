@@ -12,7 +12,7 @@ export const Services = () => {
             <div className="container flex flex-col justify-center">
                 <div className="w-full flex justify-center mb-16">
                     <HeaderSections
-                        title={"nuestros servicios"}
+                        title={"Nuestros Servicios"}
                         text={"Ofrecemos servicios especializados en zoología aplicada, adaptados a las necesidades específicas de cada proyecto"}
                     />
                 </div>
